@@ -55,7 +55,7 @@ body {
   background-image: url("header.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(55px);
   background-size: cover;
   padding-top: 50px;
 }
@@ -90,7 +90,7 @@ body {
 .boxtitle {
   line-height: 0px;
   font-size: 45px;
-  padding-top: 20px;
+  padding-top: 30px;
   font-family: cursive;
   font-weight: bold;
   color: rgb(8, 140, 150);
@@ -105,11 +105,16 @@ body {
   position: absolute;
   top: 620px;
   margin-left: 100px;
-  background-color: lightblue;
+  background-color: rgba(173, 216, 230, 0.74);
   border: 1px solid rgb(221, 90, 14);
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
+}
+.box a {
+  background-color: rgb(14, 179, 235);
+  border: 1px solid rgb(221, 90, 14);
+  color: rgb(248, 244, 10);
 }
 
 .contactus {
@@ -140,4 +145,32 @@ footer {
 footer p {
   color: white;
   text-align: center;
+}
+.blog {
+  width: 85%;
+  margin: 50px auto;
+  padding: 10px;
+}
+.blog hr {
+  margin-bottom: 20px;
+}
+.judul {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  line-height: 25pt;
+  color: rgb(10, 7, 172);
+}
+.konten {
+  font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  line-height: 20pt;
+  color: rgb(18, 18, 19);
+}
+.konten iframe {
+  position: relative;
+}
+.konten p {
+  position: absolute;
+  vertical-align: text-top;
+  overflow: hidden;
 }
